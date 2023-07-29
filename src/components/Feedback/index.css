@@ -1,0 +1,30 @@
+/* Write your CSS code here. */
+* {
+  margin: 0px;
+}
+.main-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  padding: 200px 500px 200px 500px;
+  border-radius: 30px;
+}
+.bg-white {
+  background-color: #ffffff;
+  padding: 50px;
+  text-align: center;
+}
+.emoji {
+  width: 100px;
+}
+.list {
+  margin-top: 20px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
